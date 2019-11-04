@@ -1,0 +1,7 @@
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/sda1             7.5G  2.6G  4.6G  36% /
+none                  493M  236K  493M   1% /dev
+none                  501M  164K  501M   1% /dev/shm
+none                  501M  108K  501M   1% /var/run
+none                  501M     0  501M   0% /var/lock
+/dev/sr0               37M   37M     0 100% /media/VBOXADDITIONS_4.0.4_70112

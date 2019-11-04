@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <ctype.h>
+#include <string.h>
+
+int main()
+{
+   char  *pass;
+   pass=getpass("Enter your password:");
+   
+ if( !strcmp(pass,"1234")){
+while( !strcmp(pass,"1234")){
+int choice;
+
+printf("welcome\n what would like to do\n");
+printf("1.........view disk usage information\n");
+printf("2........view system usage\n");
+printf("3........exit\n");
+scanf("%d",&choice);
+while(choice == 1 ||choice == 3||choice == 3 ){
+
+switch(choice){
+case 1:
+printf("1.........view current disk usage information\n");
+printf("2.........view previous disk usage information\n");
+printf("3.........exit\n");
+int option;
+scanf("%d",&option);
+if(option == 1){
+system("cd /etc/init.d/syslog && gcc test.c -o test");
+system("cd /etc/init.d/syslog && ./test");
+}
+else if(option == 2){system("nano p1.txt");break;}
+
+else if(option == 3){break;}
+else{printf("Invalid input sorry!");}
+break;
+
+case 2:
+system("gedit p.txt");
+break;
+
+
+default: 
+printf("sorry invalid input");
+
+break;
+}
+}te
+}
+}
+else{printf("wrong password,now exiting....");}
+   return 0;
+}

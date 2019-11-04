@@ -1,0 +1,11 @@
+Simple Computer System Logger
+Just saves everything you do on the computer.
+Linux
+please follow these instructions
+
+1. copy syslog directory to /etc/init.d as a root user
+2. compile and run install.c(gcc install.c -o install) then(./install)
+3. now you can access the program via ./menu
+Note that it can only be run as a root user.
+
+Thank you
